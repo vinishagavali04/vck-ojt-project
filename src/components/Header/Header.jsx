@@ -25,7 +25,7 @@ function Header  () {
                         <Link className="nav-item" to="/about">About</Link>
                         <Link className="nav-item" to="/courses">Courses</Link>
                         <Link className="nav-item" to="/contact">Contact</Link>
-                        <Link to="/admissions" className="nav-item btn primary-btn">
+                        <Link to="/admission" className="nav-item btn primary-btn">
                          Apply Now!
                         </Link>{" "}
                         </nav>
