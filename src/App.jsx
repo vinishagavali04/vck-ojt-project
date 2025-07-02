@@ -23,7 +23,7 @@ const App = () => {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Vinisha Vidyadhar Gavali"
-          studentPhotoUrl="/Images/vinisha.jpeg" // Path to their photo
+          studentPhotoUrl="/Images/vinisha.jpeg" 
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/Contact" element={<ContactPage/>}/>
         <Route path="/courses" element={<CoursesPage/>}/>
-        <Route path="/admission" element={<AdmissionPage/>}/>
+        <Route path="/admissions" element={<AdmissionPage/>}/>
       </Routes>
      < ChatbotComponent />
     </Router>

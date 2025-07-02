@@ -1,16 +1,7 @@
 
-/* body{
-  margin: 0;
-  font-family: Arial, sans-serif;
+body{
+  overflow: hidden;
 }
-.content{
-  margin-top: 80px;
-}
-.baner{
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-} */
 .page-container{
     max-width: 960px;
     height: 500px;
@@ -73,7 +64,9 @@
 
 /* HomePage Specific Styles */
 
+
 .main-container{
+  overflow: hidden;
   background-color: #39c4c4;
   flex-grow: 1;
   display: flex;

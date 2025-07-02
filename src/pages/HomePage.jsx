@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 const HomePage = () => {
     return(
-        <div>
+        <div className="index">
              <Header/>
         <div className="main-container">
          <div className="page-container" style={{ overflow:"auto"}}>
