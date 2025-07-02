@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import "./Header.css";
 
 
@@ -13,8 +13,7 @@ function Header() {
     setIsDrawerOpen(false);
   };
   return (
-    <header className="main-header">
-      {" "}
+    <header className="main-header">{" "}
   
       <div className="college-name">
         <Link to="/">Vivekanand College</Link>{" "}
