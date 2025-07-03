@@ -13,7 +13,7 @@ const coursesPage = () => {
             <hr/>
             <div className="video-container">
             <video width="100%" height="auto" course-video>
-                <source src="https://vck-ojt.vercel.app/assets/college-tour-FAmcnyfF.mp4" type="video/mp4"/>
+                <source src="/Videos/college-tour.mp4" type="video/mp4"/>
             </video>
             <p className="video-caption">
             Get a glimpse of the vibrant academic and social life at Vivekanand College.
